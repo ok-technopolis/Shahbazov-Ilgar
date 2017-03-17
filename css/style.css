@@ -1,0 +1,19 @@
+@font-face {
+    font-family: HelveticaNeue-ultraLight;
+    src: url(../fonts/HelveticaNeue-UltraLight.otf);
+    )
+}
+.todos-container {
+    text-align: center;
+}
+.todos-header > .todos-title {
+    font-family: HelveticaNeue-ultraLight;
+    font-size: 100pt;
+    color: #af2f2f;
+    opacity: 0.15;
+}
+.todos-main {
+    border: 1px solid black;
+    margin-left: 200pt;
+    margin-right: 200pt;
+}

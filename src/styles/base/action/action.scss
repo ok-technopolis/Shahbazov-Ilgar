@@ -9,8 +9,6 @@
     .action_target {
         position: absolute;
         @include absolute-full();
-        }
-        button.action_target, input.action_target {
-            @include reset-input();
-            opacity: 0;
-            }
+        @include reset-input();
+        opacity: 0;
+    }

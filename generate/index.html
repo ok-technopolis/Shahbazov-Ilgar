@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="src/styles/default.css" />
+    <title>Todos</title>
+</head>
+<body class="hover">
+
+<div class="main-wrapper">
+    <div class="todos-header">
+        <h1 class="todos-title">Todos</h1>
+    </div>
+
+    <div class="todos-main ">
+
+        <div class="todos-add">
+            <div class="action todo-add_select-all-action">
+                <div class="action_visual"></div>
+                <button class="action_target j  s-todos-select-all" aria-label="Отметить все как выполненные"></button>
+            </div>
+
+            <div class="todo-add_input-w">
+                <input class="todo-add_input" placeholder="Добавить"
+                       aria-label="Поле добавления todo" />
+            </div>
+        </div>
+
+        <div class="todos-list"></div>
+
+        <div class="todos-actions-bar">
+
+            <div class="todos-actions-bar_counter"
+                 aria-label="Количество не сделанных todo">
+                0 задач
+            </div>
+
+            <button class="todos-actions-bar_clear-completed">Удалить завершённые</button>
+
+            <div class="todos-filters">
+                <button class="filter all __active" data-filter="all"
+                        aria-label="Фильтр: показать все">Все</button><!--
+                --><button class="filter ready" data-filter="unready"
+                           aria-label="Фильтр: показать невыполненные">Невыполненные</button><!--
+                --><button class="filter unready" data-filter="ready"
+                           aria-label="Фильтр: показать выполненные">Выполненные</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="../build.js"></script>
+</body>
+</html>

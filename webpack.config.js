@@ -1,11 +1,9 @@
-/**
- * Created by ilgar on 22.06.17.
- */
-'use strict';
+const path = require('path');
 
 module.exports = {
-    entry: "./generate/src/scripts/Main",
+    entry: './src/scripts/main.js',
     output: {
-        filename: "build.js"
+        filename: 'build.js',
+        path: path.resolve(__dirname, './public/dist/scripts')
     }
 };
